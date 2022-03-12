@@ -1,11 +1,16 @@
 body {
-	background-image: url( "../img/background.jpg" );
+	background-image: url( "../img/bF3NbnI.gif" );
 	background-color: #fff;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
+}
+
+#funnytext {
+	background-color: #00000080;
+	color: white;
 }
 
 #container {
