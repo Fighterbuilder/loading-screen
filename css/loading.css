@@ -22,3 +22,12 @@ body {
 	/*margin-left: -150px;*/
 	width: 100%;
 }
+
+#shadow {
+	width: 64px;
+	height: 32px;
+	border-radius: 33px;
+	background-color: #00000080;
+	display: inline-block;
+	z-index: -1;
+}
