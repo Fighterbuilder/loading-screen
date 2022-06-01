@@ -24,9 +24,9 @@ body {
 }
 
 #shadow {
-	position: relative;
+	position: absolute;
 	left: 0%;
-	bottom: 16px;
+	top: 56px;
 	width: 64px;
 	height: 32px;
 	z-index: -1;
