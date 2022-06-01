@@ -24,10 +24,10 @@ body {
 }
 
 #shadow {
+	position: relative;
+	left: 0%;
+	top: 50%;
 	width: 64px;
 	height: 32px;
-	border-radius: 33px;
-	background-color: #00000080;
-	display: inline-block;
 	z-index: -1;
 }
