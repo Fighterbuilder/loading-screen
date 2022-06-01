@@ -26,7 +26,7 @@ body {
 #shadow {
 	position: relative;
 	left: 0%;
-	top: 50%;
+	top: 25%;
 	width: 64px;
 	height: 32px;
 	z-index: -1;
