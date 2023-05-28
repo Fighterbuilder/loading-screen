@@ -21,29 +21,25 @@
 		<div id="funnytext">
 			<marquee><h1>hey guys check out my cool gmod server :DDDDDDDDDD</h1></marquee>
 		</div>
-		<div id="musicmenu">
-			<h2>heres some low-quality background music for dapper to listen to</h2>
+		<hr>
+		<div id="info">
+			<h2>Next Map:</h2>
+			<h3><div id="mapname">Ohio</div></h3>
 			<hr>
-			<h4>♫ Ending 1 (Music List) - DDRMAX</h4>
-			<audio controls src="bgm.mp3" loop></audio>
-			<hr>
-			<h4>♫ Ending - Pac-Man Arrangement</h4>
-			<audio controls src="bgm2.mp3" loop></audio>
-			<hr>
-			<h4>♫ NeoMAX - DM Ashura</h4>
-			<audio controls src="neoMAX.mp3" loop></audio>
-			<hr>
-			<h4>♫ FIRE TEMPLE - ヒゲドライバー (Hige Driver)</h4>
-			<audio controls src="FIRE TEMPLE.mp3" loop></audio>
-			<hr>
-			<h4>♫ Eternal Fort (Guitar Cover) - Christopher Rios Lillo</h4>
-			<audio controls src="eternal fort.mp3" loop></audio>
-			<hr>
-			<h4>♫ Grabbag - Duke Nukem 3D</h4>
-			<audio controls src="grabbag.mp3" loop></audio>
-			<hr>
-			<h4>♫ Fart With Extra Reverb - ¯\_(ツ)_/¯</h4>
-			<audio controls src="fart_with_extra_reverb.mp3.mp3" loop></audio>
+			<h3><span id="remain">1</span>/<span id="total">1</span> files left.</h3>
 		</div>
 	</body>
+	<script>
+	window.GameDetails = function (servername, serverurl, mapname, maxplayers, steamid, gamemode) {
+		window.mapname.innerHTML = mapname
+	}
+
+	window.SetFilesTotal = function (total) {
+		window.total.innerHTML = total
+	}
+
+	window.SetFilesNeeded = function (needed) {
+		window.remain.innerHTML = needed
+	}
+</script>
 </html>
